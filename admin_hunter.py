@@ -17,7 +17,7 @@ class AdminHunterPro:
         self.console.print("""
 [bold cyan]
 ╔═══════════════════════════════════════════════════════════╗
-║             Admin Hunter Pro v1.0                         ║
+║ auther=LIMBO-2018                   Admin Hunter Pro v1.0 ║
 ║        Professional Admin Panel Discovery Suite           ║
 ╠═══════════════════════════════════════════════════════════╣
 ║ [+] Advanced WAF Detection & Bypass                       ║
@@ -32,8 +32,9 @@ class AdminHunterPro:
         if not results:
             self.console.print("\n[red]No admin panels found.[/red]")
             return
-
-        table = Table(show_header=True, header_style="bold magenta")
+           
+        # display the table
+        table = Table(show_header=True, header_style="bold magenta" )
         table.add_column("URL", style="cyan")
         table.add_column("Status", justify="center")
         table.add_column("Size", justify="right")
@@ -47,9 +48,13 @@ class AdminHunterPro:
                 result['title']
             )
 
-        self.console.print("\n[green]Found Admin Panels:[/green]")
         self.console.print(table)
-
+ 
+        self.console.print("\n[green]Found Admin Panels:[/green]")
+        
+        self.console.print("\n[yellow]Full URLs:[/yellow]")
+        for result in results:
+            self.console.print(f"[cyan]{result['url']}[/cyan]")
 def main():
     hunter = AdminHunterPro()
     hunter.banner()
