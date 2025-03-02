@@ -1,64 +1,64 @@
 # Base Admin Paths
 ADMIN_PATHS = [
     # Standard Admin
-    'admin/', 'administrator/', 'admincp/', 'admins/', 'adm/', 'admin>
-    'login/', 'login.php', 'login.asp', 'login.aspx', 'login.jsp', 's>
-    'sign-in/', 'sign_in/', 'ingreso/', 'connexion/', 'logon/', 'sign>
-    'administrator.php', 'moderator/', 'webadmin/', 'authadmin/', 'au>
+    'admin/', 'administrator/', 'admincp/', 'admins/', 'adm/', 'administration/',
+    'login/', 'login.php', 'login.asp', 'login.aspx', 'login.jsp', 'signin/',
+    'sign-in/', 'sign_in/', 'ingreso/', 'connexion/', 'logon/', 'signin.php',
+    'administrator.php', 'moderator/', 'webadmin/', 'authadmin/', 'auth/',
     'authuser/', 'autologin/', 'login_db/', 'database/', 'sistema/',
 
     # Blogging Platforms
     'wp-admin/', 'wp-login.php', 'wp-login/', 'wordpress/wp-admin/',
     'blog/wp-admin/', 'wp/wp-admin/', 'blog/admin/', 'blogger/admin/',
-    'blogger.com/admin', 'tumblr/admin/', 'typepad/admin/', 'blog/log>
-    'ghost/signin/', 'medium/admin/', 'squarespace/admin/', 'weebly/a>
-    'wix/admin/', 'blogspot.com/admin/', 'blogs/admin/', 'myblog/admi>
+    'blogger.com/admin', 'tumblr/admin/', 'typepad/admin/', 'blog/login/',
+    'ghost/signin/', 'medium/admin/', 'squarespace/admin/', 'weebly/admin/',
+    'wix/admin/', 'blogspot.com/admin/', 'blogs/admin/', 'myblog/admin/',
 
     # CMS Systems
     'joomla/administrator/', 'cms/administrator/', 'drupal/admin/',
     'concrete/login/', 'modx/manager/', 'moodle/admin/', 'admin/cms/',
-    'cms/admin/', 'umbraco/login/', 'sitemap/', 'content/', 'contents>
+    'cms/admin/', 'umbraco/login/', 'sitemap/', 'content/', 'contents/',
     'contentadmin/', 'content-manager/', 'cms-admin/', 'cms_admin/',
-    'kentico/admin/', 'sitecore/admin/', 'sharepoint/admin/', 'typo3/>
+    'kentico/admin/', 'sitecore/admin/', 'sharepoint/admin/', 'typo3/admin/',
 
     # E-commerce
-    'magento/admin/', 'magento_admin/', 'admin_xxxxx/', 'store/admin/>
-    'shop/admin/', 'shopping/admin/', 'shopify/admin/', 'prestashop/a>
-    'opencart/admin/', 'woocommerce/admin/', 'cart/admin/', 'orders/a>
-    'checkout/admin/', 'store-admin/', 'shop-admin/', 'seller/', 'sel>
-    'vendor/', 'vendors/', 'supplier/', 'suppliers/', 'merchant/', 'm>
-    'store/administrator/', 'mall/admin/', 'market/admin/', 'marketpl>
+    'magento/admin/', 'magento_admin/', 'admin_xxxxx/', 'store/admin/',
+    'shop/admin/', 'shopping/admin/', 'shopify/admin/', 'prestashop/admin/',
+    'opencart/admin/', 'woocommerce/admin/', 'cart/admin/', 'orders/admin/',
+    'checkout/admin/', 'store-admin/', 'shop-admin/', 'seller/', 'sellers/',
+    'vendor/', 'vendors/', 'supplier/', 'suppliers/', 'merchant/', 'merchants/',
+    'store/administrator/', 'mall/admin/', 'market/admin/', 'marketplace/admin/',
 
     # Social Media/Forums
-    'forum/admin/', 'community/admin/', 'social/admin/', 'phpbb/admin>
+    'forum/admin/', 'community/admin/', 'social/admin/', 'phpbb/admin/',
     'vbulletin/admin/', 'moderator/login/', 'mod/control/', 'modcp/',
-    'moderator_panel/', 'forum-admin/', 'forumadmin/', 'forums/admin/>
-    'board/admin/', 'boardadmin/', 'community-admin/', 'social-admin/>
-    'network/admin/', 'networking/admin/', 'community_admin/', 'group>
+    'moderator_panel/', 'forum-admin/', 'forumadmin/', 'forums/admin/',
+    'board/admin/', 'boardadmin/', 'community-admin/', 'social-admin/',
+    'network/admin/', 'networking/admin/', 'community_admin/', 'groups/admin/',
 
     # Corporate/Business
     'intranet/', 'extranet/', 'corporate/admin/', 'business/admin/',
-    'company/admin/', 'enterprise/admin/', 'corp/admin/', 'organizati>
+    'company/admin/', 'enterprise/admin/', 'corp/admin/', 'organization/admin/',
     'org/admin/', 'internal/', 'private/', 'secure/', 'protected/',
     'management/', 'manager/', 'manage/', 'project/', 'projects/',
-    'projectmanager/', 'task/', 'tasks/', 'taskmanager/', 'portal/adm>
+    'projectmanager/', 'task/', 'tasks/', 'taskmanager/', 'portal/admin/',
 
     # Financial/Banking
-    'bank/admin/', 'banking/admin/', 'finance/admin/', 'financial/adm>
-    'account/admin/', 'accounts/admin/', 'accounting/admin/', 'paymen>
+    'bank/admin/', 'banking/admin/', 'finance/admin/', 'financial/admin/',
+    'account/admin/', 'accounts/admin/', 'accounting/admin/', 'payment/admin/',
     'payments/admin/', 'transaction/admin/', 'transactions/admin/',
-    'billing/admin/', 'invoice/admin/', 'invoices/admin/', 'payroll/a>
+    'billing/admin/', 'invoice/admin/', 'invoices/admin/', 'payroll/admin/',
 
     # Educational
-    'edu/admin/', 'education/admin/', 'school/admin/', 'university/ad>
-    'college/admin/', 'campus/admin/', 'student/admin/', 'teacher/adm>
+    'edu/admin/', 'education/admin/', 'school/admin/', 'university/admin/',
+    'college/admin/', 'campus/admin/', 'student/admin/', 'teacher/admin/',
     'faculty/admin/', 'course/admin/', 'courses/admin/', 'lms/admin/',
-    'learning/admin/', 'elearning/admin/', 'training/admin/', 'exam/a>
+    'learning/admin/', 'elearning/admin/', 'training/admin/', 'exam/admin/',
 
     # Healthcare
-    'hospital/admin/', 'health/admin/', 'healthcare/admin/', 'medical>
-    'clinic/admin/', 'doctor/admin/', 'patient/admin/', 'pharmacy/adm>
-    'medicine/admin/', 'dental/admin/', 'laboratory/admin/', 'lab/adm>
+    'hospital/admin/', 'health/admin/', 'healthcare/admin/', 'medical/admin/',
+    'clinic/admin/', 'doctor/admin/', 'patient/admin/', 'pharmacy/admin/',
+    'medicine/admin/', 'dental/admin/', 'laboratory/admin/', 'lab/admin/',
 
     # Asian Platforms
     'baidu/admin/', 'qq/admin/', 'weibo/admin/', 'line/admin/',
@@ -112,23 +112,22 @@ REGIONAL_PREFIXES = [
 # Generate all possible combinations
 def generate_all_paths():
     all_paths = set()
-
+    
     # Add base admin paths
     all_paths.update(ADMIN_PATHS)
-
+    
     # Add paths with extensions
     for base in ADMIN_PATHS:
         for ext in ADMIN_EXTENSIONS:
             all_paths.add(f"{base}{ext}")
-
+    
     # Add regional variations
     for prefix in REGIONAL_PREFIXES:
         all_paths.add(f"{prefix}/")
         for ext in ADMIN_EXTENSIONS:
             all_paths.add(f"{prefix}/{ext}")
-
+    
     return sorted(list(all_paths))
 
 # Generate the final comprehensive list
 ALL_ADMIN_PATHS = generate_all_paths()
-ALL_PATHS = ALL_ADMIN_PATHS
