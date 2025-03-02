@@ -131,3 +131,4 @@ def generate_all_paths():
 
 # Generate the final comprehensive list
 ALL_ADMIN_PATHS = generate_all_paths()
+ALL_PATHS = ALL_ADMIN_PATHS
