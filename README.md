@@ -25,18 +25,6 @@ python -m pip install -r requirements.txt
 python admin_hunter.py 
 ```
 
-## Screenshots 📸
-
-![Main Menu](Screenshot_2025-03-02-21-31-25-248_com.termux.jpg)
-*Main interface of Admin-Hunter-pro*
-
-![Scanning Process](screenshots/admin-hunter-2.png)
-*Active scanning demonstration*
-
-![Results](screenshots/admin-hunter-3.png)
-*Successfully discovered admin panels*
-```
-
 ## Requirements 📋
 
 - Python 3.x
