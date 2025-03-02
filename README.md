@@ -27,7 +27,7 @@ python admin_hunter.py
 
 ## Screenshots 📸
 
-![Main Menu](screenshots/admin-hunter-1.png)
+![Main Menu](Screenshot_2025-03-02-21-31-25-248_com.termux.jpg)
 *Main interface of Admin-Hunter-pro*
 
 ![Scanning Process](screenshots/admin-hunter-2.png)
