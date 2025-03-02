@@ -3,7 +3,7 @@ from rich.console import Console
 from rich.table import Table
 from fake_useragent import UserAgent
 from core.scanner import AdminScanner
-from wordlists.paths import ALL_PATHS
+from wordlists.paths import ALL_ADMIN_PATHS as ALL_PATHS
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
