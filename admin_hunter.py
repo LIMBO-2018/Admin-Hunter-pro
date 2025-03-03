@@ -23,8 +23,8 @@ class AdminHunterPro:
 ║ [+] Advanced WAF Detection & Bypass                       ║
 ║ [+] Intelligent Response Analysis                         ║
 ║ [+] Dynamic Path Generation                              ║
-║ [+] Multi-layered Verification                           ║
-║ [+] Smart Crawling Technology                            ║
+║ [+] Multi-layered Verification                            ║
+║ [+] Smart Crawling Technology                             ║
 ╚═══════════════════════════════════════════════════════════╝
 [/bold cyan]""")
 
